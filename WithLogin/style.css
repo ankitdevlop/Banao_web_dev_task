@@ -86,8 +86,9 @@ section{
 .data{
     background: #f9f9f9;
     width: 50%;
+    height: 100%;
     border-radius: 3px;
-    box-shadow: 0px 0px 4px  0px ;
+    box-shadow: 0px 0px 2px  0px ;
 
 }
 .text{
@@ -214,4 +215,5 @@ section{
     width: 90%;
     height: 200px;
     margin-bottom: 20px; 
+    margin-left: 9px;
 }

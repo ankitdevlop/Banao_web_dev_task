@@ -12,6 +12,13 @@ body, html {
     display: flex;
 
 }
+upico:hover{
+    background: #8064A2;
+}
+#up:hover{
+    background: white;
+    color: #8064A2;
+}
 header{
  
     background: #ffff;
@@ -26,6 +33,12 @@ header{
    outline: none;
 border: 1px solid rgb(175, 173, 173);
    background-color: rgb(245, 247, 248);
+}
+#si{
+    border: 1px solid #8064A2;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 8px;
 }
 #serach{
 color: aliceblue;
