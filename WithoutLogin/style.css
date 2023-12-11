@@ -1,0 +1,435 @@
+body, html {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  
+  #last {
+    width: 100%;
+    overflow: hidden;
+  }
+.serach{
+    display: flex;
+
+}
+header{
+ 
+    background: #ffff;
+    box-shadow: 0px 0px 8px black;
+}
+.serach input{
+    margin-top: 19px;
+    margin-left: 15px;
+   height: 25px;
+   border-radius: 7px;
+   color: black;
+   outline: none;
+border: 1px solid rgb(175, 173, 173);
+   background-color: rgb(245, 247, 248);
+}
+#serach{
+color: aliceblue;
+text-align: center;
+align-items: center;
+}
+#btn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background:  #8064A2;
+}
+#btn i{
+    color: aliceblue;
+}
+.ico{
+color: #8064A2;
+margin: 12px;
+font-size: 12px;
+font-weight: bolder;
+}
+
+.star{
+display: inline-flex;
+justify-content: center;
+margin-bottom: 45px;
+    border-radius: 23px;
+color:white ;
+}
+.more-elems{
+    margin-top: 14px;
+
+}
+.item{
+    font-weight: bold;
+font-size: 12px;
+width: 70px;
+}
+header{
+    flex-wrap: wrap;
+}
+.ico2{
+    font-weight: 800;
+font-size: 12px;
+}
+
+.nav-link i{
+    color: #8064A2;
+}
+
+/*  Section Part */
+
+.section-one{
+  
+    margin-top:6px;
+    background-color:  #F7F5F9;
+}
+
+.login{
+    display: inline;
+}
+.btn2{
+    border: #8064A2 1px solid;
+    outline: #8064A2 1px solid;
+    margin: 12px;
+    width: 99%;
+    border-radius: 12px;
+    height: 40px;
+}
+input{
+    background: rgb(208, 208, 208);
+    width: 70%;
+}
+
+.card-body{
+   
+}
+.btn-ac{
+    border: #8064A2 1px solid;
+    outline: #8064A2 1px solid;
+    margin: 12px;
+    width: 99%;
+    border-radius: 9px;
+    height: 100%;
+ 
+}
+#join{
+    display: none;
+    justify-content: center;
+
+}
+#state{
+    color: #8064A2;
+    font-weight: bold;
+  
+}
+#state span.active {
+    text-decoration: underline;
+}
+.grup{
+width: 100%;
+margin-right: 34px;
+}
+.explore{
+    
+    width: 100%;
+}
+
+@media (min-width:576px) { 
+
+    .explore{
+    
+        width: 100%;
+    }
+}
+@media (min-width:768px) { 
+
+    .explore{
+    
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) { 
+
+    .explore{
+    
+        width: 200%;
+    }
+    
+
+}
+
+#loginEmail{
+width: 99%;
+}
+#loginPassword{
+
+    width: 99%;
+}
+
+/*  palce and more */
+section{
+    overflow: hidden;
+    margin-top: 34px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+.music{
+    border-radius: 12px;
+    margin-left: 23px;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    height:60px;
+    background: #CCC1DA;
+
+    
+}
+.music i{
+    margin-top: 6px;
+    font-size: 31px;
+    margin-right: 34px;
+    color: #Ffff;
+    float: left;
+}
+.text{
+    text-align: center;
+}
+.text i{
+    color:
+    #0096C8 ;
+    border-radius: 100px;
+}
+
+
+/* People Div */
+.people h4 i{
+    color: #8064A2;
+}
+.people h4{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.people{
+    margin-left: 23px;
+    display: inline-block;
+    
+    border: #8064A2 3px solid;
+    border-radius: 9px;
+}
+.people:hover{
+  
+   background-color: #8064A2;
+   color: white;
+    
+}
+
+.people p{
+    margin-left: 19px;
+}
+
+/* Place Div */
+.Place h4 i{
+    color: #77933C;
+}
+.Place h4{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.Place{
+    margin-left: 23px;
+    display: inline-block;
+
+    border: #77933C 3px solid;
+    border-radius: 9px;
+}
+.Place:hover{
+  
+   background-color: #77933C;
+   color: white;
+    
+}
+
+.Place p{
+    margin-left: 19px;
+}
+
+
+/* Product  Div */
+.Product h4 i{
+    color: 
+#C0504D;
+}
+.Product h4{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.Product{
+    margin-left: 23px;
+    display: inline-block;
+
+    border: 
+#C0504D 3px solid;
+    border-radius: 9px;
+}
+.Product:hover{
+  
+   background-color: 
+#C0504D;
+   color: white;
+    
+}
+
+.Product p{
+    margin-left: 19px;
+}
+/* Program  Div */
+
+.Program h4{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.Program{
+    margin-left: 23px;
+    display: inline-block;
+   
+    border: 
+#0096C8 3px solid;
+    border-radius: 9px;
+}
+.Program:hover{
+  
+   background-color: 
+#0096C8;
+   color: white;
+    
+}
+
+.Program p{
+    margin-left: 19px;
+}
+
+ 
+#Listing .people,
+#Listing .Place,
+#Listing .Product,
+#Listing .Program {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px; 
+}
+
+
+.add-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:
+     center;
+    background: 
+    #F7FDFF;
+    color: 
+    #6D747A;
+}
+.data-text{
+    box-shadow: 0px 0px 1px 0px ;
+    border-radius: 6px;
+    background: #Ffff;
+    justify-content:center ;
+width:70%;
+}
+.main-test{
+    background: 
+    #F7F5F9;
+    color: 
+    #6D747A;
+}
+.blue{
+    background: #F7FDFF;
+overflow-x: hidden;
+}
+
+
+.footer-heading{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.list-unstyled li a{
+text-decoration: none;
+color: #08090A;
+
+}
+#come{
+    border: 1px solid #8064A2;
+    background-color: #8064A2;
+    color: #F7FDFF;
+    width: 20%;
+    border-left: none;
+
+}
+.last{
+    background: #F7F5F9;
+text-align: center;
+width: 100%;
+height: 100%;
+margin-bottom: -45px;
+font-weight: bold;
+}
+.footer-heading i{
+    color: grey;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #ffff; /* Set the background color of the track */
+    outline: none;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    background: #Ffff; /* Set the background color of the track */
+    border-radius: 5px;
+  }
+
+  /* Customize the appearance of the slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 9px;
+    height: 9px;
+    background: #8064A2; /* Set the color of the slider thumb */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -2px;
+  }
+
+  @media (max-width: 991px) {
+    .collapsed-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .collapsed-icons a {
+        color: #495057; /* Adjust the color as needed */
+    }
+}
+@media (min-width: 992px) {
+    .collapsed-icons {
+        display: flex;
+    }
+}
+
+
+.collapsed-icons #i1{
+   margin-left: 511px;
+}

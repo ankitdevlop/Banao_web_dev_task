@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Example</title>
+</head>
+<body>
+
+    <h1>Links Example</h1>
+
+    <!-- External Link -->
+    <p><a href="https://www.example.com" target="_blank">External Link (opens in a new tab)</a></p>
+
+    <!-- Internal Link -->
+    <p><a href="internal-page.html">Internal Link</a></p>
+
+    <!-- Link to a Different Section on the Same Page -->
+    <p><a href="#section-1">Link to Section 1</a></p>
+    <p><a href="#section-2">Link to Section 2</a></p>
+
+    <!-- Sections on the Same Page -->
+    <section id="section-1">
+        <h2>Section 1</h2>
+        <p>This is the content of Section 1.</p>
+    </section>
+
+    <section id="section-2">
+        <h2>Section 2</h2>
+        <p>This is the content of Section 2.</p>
+    </section>
+
+</body>
+</html>
+
+
+
+2.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        ol {
+            margin: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Styled Page</h1>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <section id="section-1">
+        <h2>Section 1</h2>
+        <p>This is the content of Section 1.</p>
+    </section>
+
+    <section id="section-2">
+        <h2>Section 2</h2>
+        <p>This is the content of Section 2.</p>
+    </section>
+
+</body>
+</html>

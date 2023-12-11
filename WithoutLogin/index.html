@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Basic Responsive Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+    
+                <a class="navbar-brand" href="#">
+                    <img src="../Assets/HobbyCue Logo.png" alt="" width="200px">
+                </a>
+                <p class="navbar-toggler" style="border: none;" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Move search and bell icons here with some space -->
+             
+                        <i class="bi bi-search mr-2" style="margin-right: 23px; color:#8064A2 "></i>
+                        <i class="bi bi-bell-fill" style="margin-right: 23px; color:#8064A2 "></i>
+                 
+                    <span class="navbar-toggler-icon"></span>
+                </p>
+    
+               
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <form class="d-flex mx-auto" role="search">
+                        <div class="input-group">
+                            <input id="form-search" class="form-control" type="search" placeholder="Search..." aria-label="Search">
+                            <button class="btn btn-subtle" id="btn">
+                                <i id="search" class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </form>
+    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownExplore" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-compass-fill"></i> Explore
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownExplore">
+                               
+                                <a class="dropdown-item" href="#">People - Community</a>
+                                <hr>
+                                <a class="dropdown-item" href="#">Places - Venues</a>
+                                <hr>
+                                <a class="dropdown-item" href="#">Program - Events</a>
+                                <hr>
+                                <a class="dropdown-item" href="#">Product - Store</a>
+                                <hr>
+                                <a class="dropdown-item" href="#">Blogs</a>
+                              
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img style="width: 20px;" src="../Assets/star.png" alt=""> Hobbies <i class="bi bi-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-bookmark-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-bell-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-cart-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="ac-img">
+                                <img src="../Assets/userimg.png" alt="">
+                                <i class="ico2 bi bi-chevron-compact-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+
+    <section class="section-one mt-2 ">
+        <div class="container">
+            <div class="row">
+                
+            <div class="col d-flex" id="explore">
+                <!-- Explore Side -->
+                <div class="col-lg-6 mb-4" id="ex"  >
+                    <div class="explore" style="margin-right: 23px;">
+                        <i><h1 style="margin-bottom: 32px;">Explore Your  <span style="color: #0096C8;">Hobby</span> or <span style="color: #8064A2;">Passion</span></h1></i>
+                        <div class="para">
+                            <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
+                            </p>
+                            <br>
+                            <p>If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products, services or events.  Hop on your hobbyhorse and enjoy the ride.</p>
+                        </div>
+                        <div class="grp-img">
+                            <img class="grup" src="../Assets/Group 27.png" alt="">
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+            <section class="col-lg-6 mb-4" >
+                <div class="account-auth col-lg-6 ">
+        
+                  
+                    <h5 id="state" class="mb-4"><span id="Sign-in">Sing In</span> &nbsp;&nbsp;&nbsp;&nbsp;   <span id="join-in">Join In</span></h5>
+                                <!-- Login Form -->
+                                <div    id="Sing" class="mb-4">
+                                    <div class="">
+                                        <div class="" style="background-color: #F7F5F9;">
+                                        
+                                           
+                                         
+                                        
+                                                    <div class=" login justify-content-center">
+                                                        <div >
+                                                            <button  class="btn-ac ">
+                                                                <img src="../Assets/Google.png" alt="">
+                                                                Continue with Google
+                                                            </button>
+                                                        </div>
+                                                        <div>
+                                                            <button  class="btn-ac">
+                                                                <img src="../Assets/Facebook.png" alt="">
+                                                                Continue with Facebook
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="text-center">or connect with</p>
+                                                    <div class="mb-3">
+                                                      
+                                                        <input type="email " placeholder="Email" class="form-control" id="loginEmail" required>
+                                                    </div>
+                                                    <div class="mb-3 position-relative">
+                                                       
+                                                        <input type="password" class="form-control" placeholder="Password" id="loginPassword" required>
+                                                        <i style=" margin-right: 13px  ; color: rgb(135, 135, 135);" class="bi bi-eye-slash-fill position-absolute end-0 top-50 translate-middle-y" id="togglePassword"></i>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="rememberCheckbox">
+                                                            <label class="form-check-label" for="rememberCheckbox">Remember Me</label>
+                                                        </div>
+                                                        
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../Assets/lock_black_24dp 1.png" class="me-2">
+                                                            <p class="mb-0">Forgot Password</p>
+                                                        </div>
+                                                    </div>
+                                                    <button  class="btn2 " style="font-weight: bolder;">Continue</button>
+                                              
+                                         
+                                       
+                                        </div>
+                                    </div>
+                                </div>
+                
+                
+                
+                                    <!-- Join Form -->
+                                    <div  id="join"  class="mb-4">
+                                        <div class="">
+                                            <div class="" style="background-color: #F7F5F9;">
+                                           
+                                             
+                                            
+                                                        <div class=" login justify-content-center">
+                                                            <div >
+                                                                <button  class="btn-ac ">
+                                                                    <img src="../Assets/Google.png" alt="">
+                                                                    Continue with Google
+                                                                </button>
+                                                            </div>
+                                                            <div>
+                                                                <button  class="btn-ac " style="margin-right: 34px;">
+                                                                    <img src="../Assets/Facebook.png" alt="">
+                                                                    Continue with Facebook
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <p class="text-center">or connect with</p>
+                                                        <div class="mb-3">
+                                                          
+                                                            <input type="email " placeholder="Email" class="form-control" id="loginEmail" required>
+                                                        </div>
+                                                        <div class="mb-3 position-relative">
+                                                           
+                                                            <input type="password" class="form-control" placeholder="Password" id="loginPassword" required>
+                                                            <i style=" margin-right: 13px  ; color: rgb(135, 135, 135);" class="bi bi-eye-slash-fill position-absolute end-0 top-50 translate-middle-y" id="togglePassword"></i>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                                            
+                                                            
+                                                            <div class="d-flex align-items-center">
+                                                            
+                                                                <img src="../Assets/Rectangle 2638.png" class="">
+                                                                <p class="mb-0" style="margin-left: 172px;"> Password strength</p>
+                                                            </div>
+                                                        </div>
+                                                        <small style="color: #979499;">By continuing, you agree to our <b>Terms of Service</b>  and <b> Privacy Policy</b>.</small>
+                                                        <button  class="btn2 " style="font-weight: bolder;">Agree and Continue</button>
+                                                    </form>
+                                               
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            </section>
+            </div>
+        </div>
+        
+    </section>
+   
+
+    <!--  -->
+    <!-- detail of the [age] -->
+<section>
+    <div class="data">
+
+      <div class="d-flex row" id="Listing">
+    
+        <div class="col-md-6">
+            <div class="people" id="people">
+                <h4>
+                    <i class="bi bi-people-fill" id="ico1"></i> People
+                </h4>
+                <p>
+                    An Individual or Organization. Teacher, Coach, Professional, or Online Seller. Company, Business, or Association.
+                </p>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div class="Place" id="place"> 
+                <h4>
+                    <i class="bi bi-geo-alt-fill" id="ico2"></i> Places
+                </h4>
+                <p >
+                    An Individual or Organization. Teacher, Coach, Professional, or Online Seller. Company, Business, or Association.
+                </p>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div class="Product" id="product">
+                <h4>
+                    <i class="bi bi-cart-fill" id="ico3"></i> Product
+                </h4>
+                <p>
+                    An Individual or Organization. Teacher, Coach, Professional, or Online Seller. Company, Business, or Association.
+                </p>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div class="Program" id="program">
+                <h4>
+                    <i class="bi bi-calendar-check-fill" id="ico4"></i> Program
+                </h4>
+                <p>
+                    An Individual or Organization. Teacher, Coach, Professional, or Online Seller. Company, Business, or Association.
+                </p>
+            </div>
+        </div>
+    
+    </div>
+    </div>
+
+
+
+
+</section>
+<div class="add-text">
+<div class="data-text">
+    <h1 class="text" ><i class="bi bi-plus-circle-fill"></i>   Add Your Listing</h1>
+    
+    <p>Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page</p>
+    
+    <button class="btn" style="outline: 1px solid #8064A2 ; border: 1px solid #8064A2;"> Add new</button>
+    
+    </div>
+</div>
+  
+<!-- TODO KArna hai bhai -->
+
+<section class="Testimonial">
+
+    <div class="main-test">
+        <h2 style="text-align: left;">
+
+            <i style="background-color: white; color: white; border-radius: 50%; font-size: 23px" class="bi bi-quote"></i> Testimonials
+        </h2>
+        <p class="text">
+            <p>In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult to find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.</p>
+        </p>
+        <div class="d-flex" style="flex-wrap:wrap-reverse; justify-content: center;">
+
+            <div class="music">
+                <i class="bi bi-play-circle-fill"></i>
+                
+                <input type="range" value="0" style="margin-top: 26px; width: 100%; margin-right: 53px; height: 2px;">
+                <div style="position: relative;">
+                    <img src="../Assets/Ellipse 26.png" width="30px" height="30px" style="margin-top: 24px; margin-left: 15px;" alt="">
+                    <img src="../Assets/mic_black_24dp 1.png" width="20px" height="20px" style="position: absolute; bottom: 0; margin-left: -32px;" alt="">
+                </div>
+                
+            </div>
+            <div class="singer" style="margin-left: 269px;">
+                <img src="../Assets//Ellipse 26.png" alt="">
+                <p style="color: #8064A2; font-weight: bolder; margin-bottom: 23px;">Shubha Nagarajan</p>
+                <p style=" margin-top: -12px; color: #0096C8;">Classical Dancer</p>
+                
+            </div>
+            
+            
+        </div>
+        </div>
+
+</section>
+<div class="blue mt-5">
+
+
+
+    <i><h1 style="margin-bottom: 32px;"> Your  <span style="color: #8064A2;">Hobby</span> or <span style="color: #0096C8;">Community...</span></h1></i>
+    <br>
+    <div class="btn-ex">
+
+        <button class="bt" style="background-color: #8064A2; color: azure; font-weight: bolder; border: none ; border-radius: 5px; width: 120px; margin-left: 23px; font-size: 18px;">
+            Get started
+        </button>
+    <div class="upico">
+        <i class="bi bi-chevron-up" style="background-color: white; border-radius: 100%; float: right ; width: 27px; justify-content: center ; align-items: center; margin-right: 4px; font-size: 22px; box-shadow: 2px 2px 2px"></i>
+        <br>  
+        <small   style="background: #FFFFFF; float: right; color: #8064A2;">Go to top (Ctrl+Home)</small>
+    </div>
+    </div>
+    <div class="pic">
+        <img src="../Assets/fgrp.png" width="90%" height="100%" alt="" srcset="">
+    </div>
+</div>
+
+
+<footer class="footer-03 mt-5" style="background: #FFFFFF;
+">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Hobbycue</h2>
+                  
+                        <ul class="list-unstyled">
+              <li><a href="#" class="py-1 d-block">About Us</a></li>
+              <li><a href="#" class="py-1 d-block">Our Services</a></li>
+              <li><a href="#" class="py-1 d-block">Work with Us</a></li>
+              <li><a href="#" class="py-1 d-block">FAQ</a></li>
+              <li><a href="#" class="py-1 d-block">Contact Us</a></li>
+            </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-4">
+                        <h2 class="footer-heading">How Do I</h2>
+                        <ul class="list-unstyled">
+              <li><a href="#" class="py-1 d-block">Sign Up</a></li>
+              <li><a href="#" class="py-1 d-block">Add a Listing</a></li>
+              <li><a href="#" class="py-1 d-block">Claim Listing</a></li>
+              <li><a href="#" class="py-1 d-block">Post a Query</a></li>
+              <li><a href="#" class="py-1 d-block">Add a Blog Post </a></li>
+              <li><a href="#" class="py-1 d-block">Other Queries</a></li>
+              <li><a href="#" class="py-1 d-block">Coats</a></li>
+            </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Quick Links</h2>
+                        <ul class="list-unstyled">
+              <li><a href="#" class="py-1 d-block">Listing</a></li>
+              <li><a href="#" class="py-1 d-block">Blog Post</a></li>
+              <li><a href="#" class="py-1 d-block">Shop/Store</a></li>
+              <li><a href="#" class="py-1 d-block">Community</a></li>
+             
+            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row justify-content-end">
+                    <div class="col-md-12 col-lg-11 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Social Media</h2>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-pinterest"></i>
+                        <i class="bi bi-google"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-telegram"></i>
+                        <i class="bi bi-envelope-fill"></i>
+                        <h2 class="footer-heading mt-5">Invite Friends</h2>
+                        
+            <div class="form-group d-flex">
+              <input type="text" class="form-control rounded-left" placeholder="Email ID">
+              <input type="button" value="Invite" id="come" class="form-control submit px-3 rounded-right">
+            </div>
+   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="last">
+
+        <p>©  Purple Cuses Private Limited</p>
+    </div>
+</footer>
+<script>
+
+    // Logic For the sign in and Join in
+    let joinIn;
+    let singIn;
+
+ singIn=document.getElementById("Sign-in")
+singIn.addEventListener("click",(e)=>{
+document.getElementById("join").style.display="none"
+document.getElementById("Sing").style.display="block"
+singIn.classList.add("active")
+joinIn.classList.remove("active")
+
+})
+
+ joinIn=document.getElementById("join-in")
+joinIn.addEventListener("click",(e)=>{
+    document.getElementById("Sing").style.display="none"
+    document.getElementById("join").style.display="block" 
+    joinIn.classList.add("active")
+singIn.classList.remove("active")
+})
+ // For People
+ let people =document.getElementById("people")
+    people.addEventListener("mouseover",(e)=>{
+let peopleColor=document.getElementById("ico1")
+peopleColor.style.color="white";
+people.addEventListener("mouseout", (e) => {
+    peopleColor.style.color = "#8064A2"; 
+});
+    })
+    // For Place
+    let Place =document.getElementById("place")
+    Place.addEventListener("mouseover",(e)=>{
+let PalceColor=document.getElementById("ico2")
+PalceColor.style.color="white";
+PalceColor.addEventListener("mouseout", (e) => {
+    PalceColor.style.color = "#77933C "; 
+});
+    })
+    // For Product
+    let Product =document.getElementById("product")
+    Product.addEventListener("mouseover",(e) =>{
+let ProductColor=document.getElementById("ico3")
+ProductColor.style.color="white";
+Product.addEventListener("mouseout", (e) => {
+    ProductColor.style.color = "#C0504D"; 
+});
+    })
+    // For Program
+    let Program =document.getElementById("program")
+    Program.addEventListener("mouseover",(e)=>{
+let ProgramColor=document.getElementById("ico4")
+ProgramColor.style.color="white";
+Program.addEventListener("mouseout", (e) => {
+    ProgramColor.style.color = "#0096C8 "; 
+});
+    })
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
